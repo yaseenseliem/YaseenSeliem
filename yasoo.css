@@ -371,12 +371,14 @@ section{
 ::-webkit-scrollbar-thumb{
     background-color: #0a49f6
 }
-@media (max-width:1023px){
+@media (max-width:700px){
     header{
-        padding: 12px 20px;
+        padding: 11px 12px;
     }
-    .navigation{
+    .navigation a{
         padding-left: 3px;
+        font-size:  1em;
+        
     }
     .title{
         font-size: 1.8em;
@@ -394,5 +396,24 @@ section{
     .content{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+    .content2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer p{
+        font-size: 1em;
+    }
+    .footer{
+        padding: 1em;
+    }
+    .social-media2 a{
+        font-size: 1.3em;
+        padding-right: 6px;
     }
 }
